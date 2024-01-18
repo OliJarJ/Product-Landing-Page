@@ -1,12 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+
+    <title>Product Page</title>
+    <!-- Oswald Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <!-- Archivo Narrow Italics Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&display=swap" rel="stylesheet">
+
+    <!-- Archivo Narrow Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Fern Interior Design</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="#">Customer Reviews</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+    <!--intro block-->
+    <div id="div-1" class="div-1" type="block">
+        <h2 id="h2-header" class="d-flex justify-content-center">For all of your home makeover wants & needs!</h2>
+        <h3 class="head-3"></h3>
+        <p class="p1 d-flex justify-content-center text-white" style="margin: 20px 20px;">We offer the best of the best
+            when it comes to home remodeling. Whether you're looking for a
+            refresher won't break the bank or a luxury renewal that will add a touch of class to your living space, we
+            have a wide spread of options for you to explore!</p>
+    </div>
+    <style>
+        div p {
+            color: black;
+            font-family: 'Archivo Narrow';
+        }
+
+        div h2 {
+            color: gray;
+            font-family: 'Oswald';
+        }
+
+        #h2-header {
+            color: white;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        li a {
+            display: block;
+        }
+
+        nav {
+            
+        }
+    </style>
+
+    <div class="container-fluid " id="grid-container">
+        <div class="row">
+            <div class="grid-item col-lg-3 col-md-6 col-sm-12  justify-content-center d-flex my-2">
+                <div class="card" style="width: 18rem;">
+                    <img src="../productLandingPage/modern-interior-design.jpg" alt="" class="card-img-top">
+                    <h2>Contemporary</h2>
+                    <p>Hello, we see you contemporary design lovers! We know how important it is to maintain an
+                        aesthetically balanced space while giving your home the modern flare you deserve. Whether you
+                        prefer smooth edges and congruency or sharp lines and integrated angles, we have what your
+                        looking for! </p>
+                </div>
+            </div>
+            <div class="grid-item col-lg-3 col-md-6 col-sm-12 justify-content-center d-flex my-2">
+                <div class="card" style="width: 18rem;">
+                    <img src="../productLandingPage/47d7473a-5b74-4d21-b6de-efb948694cb1_Hollyhocks.webp" alt=""
+                        class="card-img-top">
+                    <h2>Industrial</h2>
+                    <p>Here, we embrace the features of your home that have once been covered up. Remember those beams,
+                        ducts, and pipes? No? Let us show you how your space can be transformed by these once hidden
+                        elements. Our team has taken many homes with lackluster interiors and turned them into dynamic,
+                        new age spaces. </p>
+                </div>
+            </div>
+            <div class="grid-item col-lg-3 col-md-6 col-sm-12 justify-content-center d-flex my-2">
+                <div class="card" style="width: 18rem;">
+                    <img src="../productLandingPage/3139daca85cd75a9e8c62532c8ce179c.jpg" alt="" class="card-img-top">
+                    <h2>Luxury</h2>
+                    <p>We're talking about combining comfort, style, and convenience to bring you spaces that both look
+                        and feel gorgeous. The options are endless with our selection of metal accents, built-in
+                        furniture, and lighting fixtures that are sure to make your space exude opulence.</p>
+                </div>
+            </div>
+            <div class="grid-item col-lg-3 col-md-6 col-sm-12 justify-content-center d-flex my-2">
+                <div class="card" style="width: 18rem;">
+                    <img src="../productLandingPage/rustic-kitchen.jpg" alt="" class="card-img-top">
+                    <h2>Rustic</h2>
+                    <p>Adding wood, stone, metal and brick textures to a space can take your home to the next level.
+                        Natural, aged elements that have developed character create a sense of simplicity while the raw
+                        materials reflect the rugged beauty of the life they had before being a part of your home.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    <div class="col-lg-4 col-6 col-xl-3">
+                <div class="card" style="width:18rem">
+                    <img src="../bootStrapLessons/jahanzeb-ahsan-MC8Y2JuqySs-unsplash.jpg" alt="" class="card-image-top">
+                    <h5 class="card-title">Wow, Look at that escalator</h5>
+                    <p class="para1">Eerie photo of an escalator</p>
+                    <a href="" class="btn btn-primary">I'm a button!</a>
+                </div>
+            </div> -->
+    <div class="div-4">
+        <main>
+            <video src="" id="video"></video>
+            <form action="" id="form">
+                <label for="email"></label>
+                <input type="text" id="email" placeholder="email" required>
+                <button id="button" type="submit"><a
+                        href="https://www.freecodecamp.com/email-submit">Submit</a></button>
+            </form>
+        </main>
+    </div>
+
 </body>
+
 </html>
