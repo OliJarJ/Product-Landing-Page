@@ -29,42 +29,50 @@
 <body>
 <!-- navbar -->
 <header id="header">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Fern Home Interiors</a>
+          <a class="navbar-brand display-1" href="#">
+            <img src="./eye_8526779 (1).png" alt="" style="width: 15%;">
+            Lensa Home Interiors</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+              <span class="navbar-toggler-icon"></span>
+          </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Contemporary"><section id="Contemporary">Contemporary</section></a>
+            <a class="nav-link" href="#Contemporary"><section>Contemporary</section></a>
           </li>
         
           <li class="nav-item">
-            <a class="nav-link" href="#Industrial"><section id="Industrial">Industrial</section></a>
+            <a class="nav-link" href="#Industrial"><section>Industrial</section></a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#Luxury"><section id="Luxury">Luxury</section></a>
+            <a class="nav-link" href="#Luxury"><section >Luxury</section></a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#Rustic"><section id="Rustic">Rustic</section></a>
+            <a class="nav-link" href="#Rustic"><section >Rustic</section></a>
           </li>
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-info" type="submit">Search</button>
         </form>
       </div>
     </div>
   </nav>
 </header>
+
     <!--intro block-->
+    <main>
     <div id="div-1" class="div-1" type="block">
         <h2 id="h2-header" class="d-flex justify-content-center"></h2>
-        <h3 class="head-3">We offer the best of the best
+        <h3 class="head-3" id="Home">We offer the best of the best
             when it comes to home remodeling. Whether you're looking for a
             refresher won't break the bank or a luxury renewal that will add a touch of class to your living space, we
             have a wide spread of options for you to explore!</h3>
@@ -100,9 +108,9 @@
 
     <div class="container-fluid " id="grid-container">
         <div class="row">
-            <div class="grid-item col-lg-4 col-md-6 col-sm-12  justify-content-center d-flex my-2">
-                <div class="card" style="width: 18rem;">
-                    <img src="../productLandingPage/modern-interior-design.jpg" alt="" class="card-img-top">
+            <div class="grid-item col-lg-3 col-md-6 col-sm-12  justify-content-center d-flex my-2">
+                <div class="card" style="width: 18rem;" id="Contemporary">
+                    <img src="../productLandingPage/R.jpg" alt="" class="card-img-top">
                     <h2>Contemporary</h2>
                     <p>Hello, we see you contemporary design lovers! We know how important it is to maintain an
                         aesthetically balanced space while giving your home the modern flare you deserve. Whether you
@@ -110,8 +118,8 @@
                         looking for! </p>
                 </div>
             </div>
-            <div class="grid-item col-lg-4 col-md-6 col-sm-12 justify-content-center d-flex my-2">
-                <div class="card" style="width: 18rem;">
+            <div class="grid-item col-lg-3 col-md-6 col-sm-12 justify-content-center d-flex my-2">
+                <div class="card" style="width: 18rem;" id="Industrial">
                     <img src="../productLandingPage/47d7473a-5b74-4d21-b6de-efb948694cb1_Hollyhocks.webp" alt=""
                         class="card-img-top">
                     <h2>Industrial</h2>
@@ -119,10 +127,11 @@
                         ducts, and pipes? No? Let us show you how your space can be transformed by these once hidden
                         elements. Our team has taken many homes with lackluster interiors and turned them into dynamic,
                         new age spaces. </p>
+                    
                 </div>
             </div>
-            <div class="grid-item col-lg-4 col-md-6 col-sm-12 justify-content-center d-flex my-2">
-                <div class="card" style="width: 18rem;">
+            <div class="grid-item col-lg-3 col-md-6 col-sm-12 justify-content-center d-flex my-2">
+                <div class="card" style="width: 18rem;" id="Luxury">
                     <img src="../productLandingPage/3139daca85cd75a9e8c62532c8ce179c.jpg" alt="" class="card-img-top">
                     <h2>Luxury</h2>
                     <p>We're talking about combining comfort, style, and convenience to bring you spaces that both look
@@ -130,9 +139,10 @@
                         furniture, and lighting fixtures that are sure to make your space exude opulence.</p>
                 </div>
             </div>
-            <div class="grid-item col-lg-12 col-md-6 col-sm-12 justify-content-center d-flex my-2">
-                <div class="card" style="width: 18rem;">
-                    <img src="../productLandingPage/rustic-kitchen.jpg" alt="" class="card-img-top">
+
+            <div class="grid-item col-lg-3 col-md-6 col-sm-12 justify-content-center d-flex my-2">
+                <div class="card" style="width: 18rem;" id="Rustic">
+                    <img src="../productLandingPage/ravencresthomes.jpg" alt="" class="card-img-top">
                     <h2>Rustic</h2>
                     <p>Adding wood, stone, metal and brick textures to a space can take your home to the next level.
                         Natural, aged elements that have developed character create a sense of simplicity while the raw
@@ -141,14 +151,14 @@
             </div>
         </div>
     </div>
-    <!--    <div class="col-lg-4 col-6 col-xl-3">
-                <div class="card" style="width:18rem">
-                    <img src="../bootStrapLessons/jahanzeb-ahsan-MC8Y2JuqySs-unsplash.jpg" alt="" class="card-image-top">
-                    <h5 class="card-title">Wow, Look at that escalator</h5>
-                    <p class="para1">Eerie photo of an escalator</p>
-                    <a href="" class="btn btn-primary">I'm a button!</a>
-                </div>
-            </div> -->
+
+    <!-- large more info button -->
+<div class="d-grid my-5" style="margin: 35%">
+    <button class="btn btn-primary bg-info" type="button"><h4>More Information</h4></button>
+  </div>
+
+    </div>
+<!--youtube vid-->
 <div>
     <h3></h3>
     <hr>
@@ -158,7 +168,7 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/T98dnE2vPdY?si=uMy3gIO_T_Y-Nhed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
     <div class="div-4">
-        <main>
+        
           
             <form action="submit" id="form">
                 <label for="email"></label>
@@ -166,9 +176,17 @@
                 <button id="button" type="submit"><a
                         href="https://www.freecodecamp.com/email-submit">Submit</a></button>
             </form>
-        </main>
+       
     </div>
 
+<footer>
+    <div class="container-fluid bg-info text-center">Lensa Home Interiors</div>
+</footer>
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+crossorigin="anonymous"></script>
 </body>
 
 </html>
